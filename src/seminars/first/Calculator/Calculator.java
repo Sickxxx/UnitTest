@@ -47,4 +47,8 @@ public class Calculator {
         // discountAmount - размер скидки
         return purchaseAmount - Math.round(purchaseAmount * (discountAmount / 100)); // Метод должен возвращать сумму покупки со скидкой
     }
+
+    public static double pow(int i, int i1) {
+        return Math.pow(i,i1);
+    }
 }
